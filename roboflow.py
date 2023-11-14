@@ -4,8 +4,7 @@ from ultralytics import YOLO
 from PIL import Image
 import requests
 import os , time
-import sys
-sys.path.append('/usr/local/lib/python3.8/site-packages')
+
 
 st.header('car accident detection system', divider='rainbow')
 st.header(':blue[import car image] :sunglasses:')
