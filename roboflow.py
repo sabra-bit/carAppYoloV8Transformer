@@ -4,8 +4,8 @@ from ultralytics import YOLO
 from PIL import Image
 import requests
 import os , time
-
-
+import platform
+print(platform.system())
 st.header('car accident detection system', divider='rainbow')
 st.header(':blue[import car image] :sunglasses:')
 uploaded_file = st.file_uploader("Choose a file")
